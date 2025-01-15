@@ -1,0 +1,25 @@
+[project]
+name = "poetry-v2"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Steven Kessler",email = "stvnksslr@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.115.6,<0.116.0)",
+    "pydantic (>=2.10.5,<3.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.9.1"
+
+[tool.poetry]
+packages = [
+    { include = "src" },
+]
