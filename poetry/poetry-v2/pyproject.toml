@@ -1,7 +1,7 @@
 [project]
 name = "poetry-v2"
 version = "0.1.0"
-description = ""
+description = "hello this is a description and its cool"
 authors = [
     {name = "Steven Kessler",email = "stvnksslr@gmail.com"}
 ]
