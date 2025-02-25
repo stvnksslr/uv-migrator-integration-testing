@@ -12,6 +12,8 @@ dependencies = [
     "fastapi (>=0.115.7,<0.116.0)"
 ]
 
+[project.scripts]
+python = 'my_package.console:run'
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
