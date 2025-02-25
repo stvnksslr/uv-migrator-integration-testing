@@ -6,10 +6,3 @@ authors = [{ name = "Steven Kessler", email = "stvnksslr@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = ["ibis-framework[duckdb,polars,sqlite] (>=10.1.0,<11.0.0)"]
-
-[tool.poetry]
-package-mode = false
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
